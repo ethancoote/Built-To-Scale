@@ -39,6 +39,8 @@
   },
   "name":"Built to Scale",
   "resources":[
+    {"id":{"name":"oEnvironmentMove","path":"objects/oEnvironmentMove/oEnvironmentMove.yy",},},
+    {"id":{"name":"oHands","path":"objects/oHands/oHands.yy",},},
     {"id":{"name":"oLedge","path":"objects/oLedge/oLedge.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oProcGen","path":"objects/oProcGen/oProcGen.yy",},},
@@ -46,6 +48,7 @@
     {"id":{"name":"Controls","path":"scripts/Controls/Controls.yy",},},
     {"id":{"name":"ProcGen","path":"scripts/ProcGen/ProcGen.yy",},},
     {"id":{"name":"sBuilding","path":"sprites/sBuilding/sBuilding.yy",},},
+    {"id":{"name":"sHands","path":"sprites/sHands/sHands.yy",},},
     {"id":{"name":"sLedge","path":"sprites/sLedge/sLedge.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
   ],

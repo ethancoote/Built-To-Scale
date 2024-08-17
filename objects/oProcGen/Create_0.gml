@@ -1,7 +1,7 @@
 // random seed
 randomize();
 
-max_height = 10;
+max_height = 30;
 ledge_pos = get_ledge_pos(max_height);
 
 // creating ledges
@@ -11,7 +11,7 @@ for(i=0; i<max_height; i++) {
 	// create ledge
 	if ledge_pos[i] != EMPTY {
 		_x_pos = ledge_pos[i] * 32;
-		instance_create_depth(_x_pos ,i*32, 0, oLedge);
+		instance_create_depth(_x_pos ,(i*-32) + 256, 0, oLedge);
 	}
 }
 

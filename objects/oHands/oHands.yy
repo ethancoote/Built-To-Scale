@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oLedge",
+  "%Name":"oHands",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oLedge",
+  "name":"oHands",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interact",
-    "path":"folders/Objects/Interact.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sLedge",
-    "path":"sprites/sLedge/sLedge.yy",
+    "name":"sHands",
+    "path":"sprites/sHands/sHands.yy",
   },
   "spriteMaskId":null,
   "visible":true,
